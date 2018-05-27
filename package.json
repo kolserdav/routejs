@@ -1,0 +1,22 @@
+{
+  "name": "route-fhash",
+  "version": "0.0.1",
+  "description": "route js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo Test complete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolserdav/routejs.git"
+  },
+  "keywords": [
+    "route"
+  ],
+  "author": "Sergey <serega12101983@gmail.com> (https://github.com/kolserdav)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolserdav/routejs/issues"
+  },
+  "homepage": "https://github.com/kolserdav/routejs#readme"
+}
