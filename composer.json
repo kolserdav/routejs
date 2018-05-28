@@ -1,0 +1,18 @@
+{
+    "name": "kolserdav/routejs",
+    "description": "hash router",
+    "type": "library",
+    "require": {
+        "symfony/yaml": "^4.0"
+    },
+  "autoload":{
+      "psr-4" : {"Avir\\Hash\\": "src/"}
+  },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kolserdav",
+            "email": "serega12101983@gmail.com"
+        }
+    ]
+}

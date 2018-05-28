@@ -1,0 +1,13 @@
+      #pages
+app :
+      path: /application
+      controller: Home::app
+      hash:
+        vasya : masya
+        pasya : asya
+home :
+      path : /
+      controller : Home::home
+      hash :
+        and : twohash
+        and2 : tree

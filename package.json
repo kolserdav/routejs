@@ -2,7 +2,7 @@
   "name": "route-fhash",
   "version": "0.0.1",
   "description": "route js",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo Test complete"
   },
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kolserdav/routejs/issues"
   },
-  "homepage": "https://github.com/kolserdav/routejs#readme"
+  "homepage": "https://github.com/kolserdav/routejs#readme",
+  "dependencies": {
+    "ajaxsim": "^1.0.0"
+  }
 }
