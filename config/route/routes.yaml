@@ -3,8 +3,8 @@ app :
       path: /application
       controller: Home::app
       hash:
-        vasya : masya
-        pasya : asya
+        vasya : masya::res
+        asya : pasya::res
 home :
       path : /
       controller : Home::home

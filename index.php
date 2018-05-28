@@ -1,9 +1,3 @@
-<?php
-require_once './vendor/autoload.php';
-use Avir\Hash\Reader;
-$s = new Reader();
-var_dump($s->getRoutes());
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

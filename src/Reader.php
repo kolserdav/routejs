@@ -16,12 +16,14 @@ class Reader extends Factory
     public $array;
     public function getRoutes()
     {
-        $postData = $_POST['hash'];
-        $dataFile = Yaml::parseFile($this->getRoot().'/config/route/routes.yaml');
+        $postData = str_replace('#', '', $_POST['hash']);
+        $root = $this->getRoot();
+        $dataFile = Yaml::parseFile($root.'/config/route/routes.yaml');
         $this->getHashs($dataFile);
         if (array_key_exists($postData, $this->array)) {
             echo json_encode([
-                'value' => $this->array[$postData]
+                    'value' => $this->array[$postData],
+                    'root' => $root
                 ]);
         }
         else {
