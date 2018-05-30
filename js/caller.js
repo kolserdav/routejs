@@ -1,8 +1,7 @@
 let ajax = require('ajaxsim');
 
 module.exports = route;
-const path = require('path');
-function route()
+function route(dir = 'jstest')
 {
     this.rout = (hash)=>
     {
@@ -15,7 +14,7 @@ function route()
                 func = funcWithPP[0].replace('::', '');
 
         //TODO path
-            let nasya = require('../s/'+file+'.js');
+            let nasya = require('../'+dir+'/'+file+'.js');
             nasya[func]();
         });
     };
