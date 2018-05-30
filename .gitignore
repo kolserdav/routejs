@@ -9,4 +9,5 @@ config
 .npmignore
 webpack.config.js
 package-lock.json
-composer.json
+package.json
+index.js
