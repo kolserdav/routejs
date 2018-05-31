@@ -13,7 +13,7 @@ class Factory
 {
     public function getRoot()
     {
-        preg_match("%.*src%",dirname(__DIR__),$m);
-        return preg_filter('%.{1}src%','',$m[0]);
+        preg_match("%.*vendor%",dirname(__DIR__),$m);
+        return preg_filter('%.{1}vendor%','',$m[0]);
     }
 }
