@@ -34,6 +34,9 @@ nameroutegroup2 :
 ```
 
 _Using php_
+
+script uri: /routejs-data  
+
 ```php
 require_once '../vendor/autoload.php';
 use Avir\Hash\Reader;
@@ -43,8 +46,6 @@ $s->getRoutes();
 
 _Using javascript_
 ```php
-require_once '../vendor/autoload.php';
-use Avir\Hash\Reader;
-$s = new Reader();
-$s->getRoutes();
+let route = require('route-fhash');
+route('dir/with/route/files');
 ```
